@@ -1,0 +1,21 @@
+package knight.day6;
+
+public class SumOfArrrayValues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array = {10, 20, 30, 40, 50, 10}; 
+		int sum = 0; 
+		//Advanced for loop
+		for( int num : array) { 
+			 sum = sum+num; 
+		}
+		System.out.println("Sum of array elements is:"+sum); 
+		
+	/*	for(int num=0;num<array.length;num++) {
+		 sum = sum+array[num]; 
+		 }*/ 
+		 
+	}
+
+}
